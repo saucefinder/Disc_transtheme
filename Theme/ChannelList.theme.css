@@ -1,0 +1,112 @@
+//META{"name":"CreateYourOwnTheme","description":"Create_Your_Own_Theme-ChannelList","author":"xNightWulf","version":"1.0"}*//{}
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+
+/*Use the website "http://htmlcolorcodes.com/" to find the RGB values for the colors you want, The A (seen below) at the end is the opacity, rated 0 (transparent) to 1 (Solid)*/
+/*TEMPLATE
+/*ChannelList*/
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: rgba(220, 220, 220, 1); /*This changes the color of none selected, none hovered channels*/	
+}
+.nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw {
+    color: rgba(255, 210, 235, 1); /*This changes the color of selected channels*/
+}
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+	color:rgba(175, 175, 175, 1); /*This changes the color of muted channels*/
+}
+.nameHoveredText-2FFqiz {
+    color: rgba(255, 236, 247, 1); /*This changes the color of hovered text channels*/
+}
+.nameHoveredVoice-TIoHRJ {
+    color: rgba(236, 252, 255, 1); /*This changes the color of hovered voice channels*/
+}
+.nameLockedText-2fGz07 {
+    color: rgba(228, 107, 149, 1); /*This changes the color of locked text channels*/
+}
+.nameLockedVoice-wNOMNa {
+    color: rgba(99, 165, 181, 1); /*This changes the color of locked voice channels*/
+}
+
+
+/*Catagories*/
+.nameDefault-Lnjrwm {
+    color: rgba(133, 218, 248, 1); /*This changes the color of channel catagories*/
+}
+.nameCollapsed-3_ChMu {
+    color: rgba(133, 218, 248, 1); /*This changes the color of collapsed catagories*/
+}
+.iconDefault-xzclSQ {
+    color: rgba(245, 245, 245, 1); /*This changes the color of the arrow on catagories*/
+}
+.iconCollapsed-1INdMX {
+    color: rgba(245, 245, 245, 1); /*This changes the color of the arrow on collapsed catagories*/
+}
+.iconMuted-Hb4ttQ {
+    color: rgba(195, 195, 195, 1); /*This changes the color of the arrow on muted catagories*/
+}
+ .nameMuted-1n0LSj {
+    color: rgba(83, 168, 198, 1); /*This changes the color of  muted catagories*/
+}
+
+
+/*Catagory backgrounds*/
+.nameDefault-Lnjrwm {
+    background-color: rgba(255, 178, 222, 1); /*This changes the color of the background of channel catagories*/
+    border-radius: 2px /*higher this number to round the edges of the background*/
+	}
+.nameCollapsed-3_ChMu {
+    background-color: rgba(205, 128, 172, 1); /*This changes the color of the background of collapsed catagories*/
+	border-radius: 2px /*higher this number to round the edges of the background*/
+}
+
+/*Transparency*/
+#voice-connection, 
+#friends, 
+.friends-header, 
+.friends-table, 
+.guilds-wrapper, 
+.guild-header header, 
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.chat, 
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .ui-standard-sidebar-view, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .layer-kosS71, 
+.theme-dark .layers-20RVFW, 
+.theme-dark .typing-3eiiL_,
+.container-2OU7Cz {
+  background: transparent !important;
+}
